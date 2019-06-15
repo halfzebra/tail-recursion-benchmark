@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watch",
-    "bench": "cross-env node benchmarks/index.js",
+    "bench": "cross-env node benchmarks/index.js"
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
