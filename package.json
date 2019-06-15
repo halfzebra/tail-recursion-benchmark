@@ -1,0 +1,16 @@
+{
+  "name": "tail-recursion-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "bench": "cross-env node benchmarks/index.js"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "cross-env": "^5.2.0",
+    "jest": "^24.8.0",
+    "parcel": "^1.12.3"
+  }
+}
