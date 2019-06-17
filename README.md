@@ -2,6 +2,8 @@
 
 This repo with a benchmark of [Factorial](https://en.wikipedia.org/wiki/Factorial) with tail recursion optimisation.
 
+I wanted to see how fast tail-recursive functions are compared to the implementation using loops in JavaScript.
+
 ## Run locally
 
 ```sh
