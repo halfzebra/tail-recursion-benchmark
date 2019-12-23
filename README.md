@@ -14,8 +14,8 @@ npm bench
 ## Results
 
 ```sh
-recursive x 634 ops/sec ±6.28% (73 runs sampled)
-tailRecursive x 424,794 ops/sec ±6.42% (77 runs sampled)
-loop x 1,880,282 ops/sec ±3.42% (77 runs sampled)
+recursive x 1,164 ops/sec ±0.89% (89 runs sampled)
+tailRecursive x 707,965 ops/sec ±0.60% (91 runs sampled)
+loop x 3,503,258 ops/sec ±0.62% (89 runs sampled)
 Fastest is loop
 ```
