@@ -1,5 +1,5 @@
-const { recoursive } = require('./recoursive');
-const { tailRecoursive } = require('./tail-recoursive');
+const { recursive } = require('./recursive');
+const { tailRecursive } = require('./tail-recursive');
 const { loop } = require('./loop');
 
-module.exports = { recoursive, tailRecoursive, loop };
+module.exports = { recursive, tailRecursive, loop };

@@ -8,25 +8,25 @@
 // a = 8 b = 13
 
 function loop(n) {
-    if (n === 0) {
-		return 0;
-	}
+  if (n === 0) {
+    return 0;
+  }
 
-	if (n === 1  || n === 2) {
-		return 1;
-    }
-    let i = 0
-    let a = 0;
-    let b = 1;
-    let tmp;
-    
-	while (i < n - 1) {
-        tmp = b
-        b = a + b
-        a = tmp
-        i++;
-    }
-    return b
+  if (n === 1 || n === 2) {
+    return 1;
+  }
+  let i = 0;
+  let a = 0;
+  let b = 1;
+  let tmp;
+
+  while (i < n - 1) {
+    tmp = b;
+    b = a + b;
+    a = tmp;
+    i++;
+  }
+  return b;
 }
 
 module.exports = { loop };
