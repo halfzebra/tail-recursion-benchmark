@@ -8,6 +8,6 @@
   "devDependencies": {
     "benchmark": "2.1.4",
     "cross-env": "6.0.3",
-    "jest": "24.8.0"
+    "jest": "24.9.0"
   }
 }
